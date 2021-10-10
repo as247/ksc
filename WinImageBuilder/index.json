@@ -12,7 +12,10 @@
                 "courseData": "background.sh",
                 "code": "foreground.sh"
             }
-        ]
+        ],
+      "assets": {
+        "client": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
+      }
     },
     "environment": {
         "showdashboard": true,
