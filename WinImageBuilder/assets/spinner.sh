@@ -8,6 +8,9 @@ function shutdown() {
 }
 trap shutdown EXIT
 
+function cursorBack() {
+  echo -en "\033[$1D"
+}
 
 function spinner() {
   # make sure we use non-unicode character type locale 
@@ -72,7 +75,8 @@ function spinner() {
   while kill -0 $pid 2>/dev/null; do
     local i=$(((i + $charwidth) % ${#spin}))
     printf "%s" "${spin:$i:$charwidth}"
-     printf "\b"
+
+    cursorBack $charwidth
     sleep .1
   done
   tput cnorm
