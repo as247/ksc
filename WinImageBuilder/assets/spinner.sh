@@ -22,7 +22,7 @@ function spinner() {
   case $(($RANDOM % 12)) in
   0)
     local spin='⠁⠂⠄⡀⢀⠠⠐⠈'
-    local charwidth=3
+    local charwidth=1
     ;;
   1)
     local spin='-\|/'
@@ -30,43 +30,43 @@ function spinner() {
     ;;
   2)
     local spin="▁▂▃▄▅▆▇█▇▆▅▄▃▂▁"
-    local charwidth=3
+    local charwidth=1
     ;;
   3)
     local spin="▉▊▋▌▍▎▏▎▍▌▋▊▉"
-    local charwidth=3
+    local charwidth=1
     ;;
   4)
     local spin='←↖↑↗→↘↓↙'
-    local charwidth=3
+    local charwidth=1
     ;;
   5)
     local spin='▖▘▝▗'
-    local charwidth=3
+    local charwidth=1
     ;;
   6)
     local spin='┤┘┴└├┌┬┐'
-    local charwidth=3
+    local charwidth=1
     ;;
   7)
     local spin='◢◣◤◥'
-    local charwidth=3
+    local charwidth=1
     ;;
   8)
     local spin='◰◳◲◱'
-    local charwidth=3
+    local charwidth=1
     ;;
   9)
     local spin='◴◷◶◵'
-    local charwidth=3
+    local charwidth=1
     ;;
   10)
     local spin='◐◓◑◒'
-    local charwidth=3
+    local charwidth=1
     ;;
   11)
     local spin='⣾⣽⣻⢿⡿⣟⣯⣷'
-    local charwidth=3
+    local charwidth=1
     ;;
   esac
 
