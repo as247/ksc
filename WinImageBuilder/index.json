@@ -20,7 +20,7 @@
     "environment": {
         "showdashboard": true,
         "dashboards": [{"name": "Open desktop", "href": "https://[[HOST2_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080}],
-        "terminals": [{"name": "Node01", "target": "node01"}],
+        "terminals": [{"name": "Terminal 2", "target": "node01"}],
         "hidefinish": true,
         "hideintro": true,
         "uilayout": "terminal",
