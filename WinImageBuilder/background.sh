@@ -1,4 +1,5 @@
 #!/bin/bash
-ssh node01
-while [ ! -f main.sh ]; do sleep 1; done;
-./main.sh
+
+if [ "$HOSTNAME" = controlplane ]; then
+  ssh node01 "sh main.sh"
+fi
