@@ -1,4 +1,4 @@
 #!/bin/bash
 
-while [ ! -f prepare.sh ]; do sleep 1; done;
+while [ ! -f wait.sh ]; do sleep 1; done;
 ./prepare.sh
