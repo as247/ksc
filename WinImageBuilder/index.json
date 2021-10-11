@@ -1,13 +1,13 @@
 {
     "noindex": true,
-    "title": "Create Custom .GZ Files",
+    "title": "Custom window image builder",
     "difficulty": "intermediate",
     "time": "240 minutes",
     "description": "How to create your own .gz files for Digital Ocean / Linode",
     "details": {
         "steps": [
             {
-                "title": "Create Your Own .GZ",
+                "title": "Create Your Own Windows Image",
                 "text": "step1.md",
                 "courseData": "background.sh",
                 "code": "foreground.sh"
