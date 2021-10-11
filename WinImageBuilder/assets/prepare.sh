@@ -1,2 +1,2 @@
-nohub
+
 ./wait.sh
