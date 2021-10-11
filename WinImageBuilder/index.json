@@ -14,19 +14,20 @@
             }
         ],
       "assets": {
-        "client": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
+        "node01": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
       }
     },
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Open desktop", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080}],
+        "dashboards": [{"name": "Open desktop", "href": "https://[[HOST1_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080}],
+        "terminals": [{"name": "Node01", "command": "", "target": "node01"}],
         "hidefinish": true,
         "hideintro": true,
         "uilayout": "terminal",
         "uimessage1": ""
     },
     "backend": {     
-        "imageid": "nodejs:12",
+        "imageid": "kubernetes-cluster",
         "lifetime": 240
     }
 }
