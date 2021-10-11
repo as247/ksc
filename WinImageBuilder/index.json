@@ -14,7 +14,7 @@
             }
         ],
       "assets": {
-        "node01": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
+        "host02": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
       }
     },
     "environment": {
