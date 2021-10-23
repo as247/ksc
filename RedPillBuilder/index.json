@@ -1,0 +1,32 @@
+{
+    "noindex": true,
+    "title": "Create RedPill Image",
+    "difficulty": "intermediate",
+    "time": "240 minutes",
+    "description": "How to create your own red pill img ",
+    "details": {
+        "steps": [
+            {
+                "title": "Create Your Own Red pill ",
+                "text": "readme.md",
+                "courseData": "background.sh",
+                "code": "foreground.sh"
+            }
+        ],
+      "assets": {
+        "client": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
+      }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name": "Open files", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080}],
+        "hidefinish": true,
+        "hideintro": true,
+        "uilayout": "terminal",
+        "uimessage1": ""
+    },
+    "backend": {     
+        "imageid": "nodejs:12",
+        "lifetime": 240
+    }
+}
