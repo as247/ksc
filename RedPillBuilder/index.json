@@ -14,7 +14,9 @@
             }
         ],
       "assets": {
-        "client": [{"file": "*.sh", "target": "/root/", "chmod": "+x"}]
+        "client": [
+          {"file": "*.sh", "target": "/root/", "chmod": "+x"},
+          {"file": "redpill-tool-chain.zip", "target": "/root/"}]
       }
     },
     "environment": {
