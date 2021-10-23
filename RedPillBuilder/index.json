@@ -28,7 +28,7 @@
         "uimessage1": ""
     },
     "backend": {     
-        "imageid": "nodejs:12",
+        "imageid": "ubuntu:2004",
         "lifetime": 240
     }
 }
