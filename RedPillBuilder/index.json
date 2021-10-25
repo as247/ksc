@@ -21,7 +21,7 @@
     },
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Open files", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080}],
+        "dashboards": [{"name": "Download Image", "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/", "port": 8000}],
         "hidefinish": true,
         "hideintro": true,
         "uilayout": "terminal",
