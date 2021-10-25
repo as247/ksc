@@ -3,7 +3,8 @@ Tutorial Create Custom Red Pill Image
 
 STEP:
 - Set Config `./config.sh`{{execute}}
-- Create image `./ds918.sh`{{execute}}
+- Create DS918 image `./DS918+.sh`{{execute}}
+- Create DS3615xs image `./DS3615xs.sh`{{execute}}
 - Download image 
 
     https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/
