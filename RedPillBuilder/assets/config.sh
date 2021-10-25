@@ -10,7 +10,7 @@ if [ ! -z "$Vid" ]; then
 sed -i "s/0x46f4/${Vid}/g" bromolow_user_config.json
 sed -i "s/0x46f4/${Vid}/g" apollolake_user_config.json
 fi
-if [ ! -z "$Piv" ]; then
+if [ ! -z "$Pid" ]; then
 sed -i "s/0x0001/${Pid}/g" bromolow_user_config.json
 sed -i "s/0x0001/${Pid}/g" apollolake_user_config.json
 fi
